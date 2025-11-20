@@ -30,3 +30,13 @@
 
 # Write your code here:
 
+firstnumber = int(input('Type in your first number: '))
+secondnumber = int(input('Type in your second number: '))
+operation = input('What operation do you want to perform: ')
+
+if operation == 'add':
+    print(firstnumber + secondnumber)
+if operation == 'multiply':
+    print(firstnumber*secondnumber)
+if operation == 'substract':
+    print(firstnumber-secondnumber)
