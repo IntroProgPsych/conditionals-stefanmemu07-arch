@@ -17,3 +17,9 @@
 
 # Write your code here:
 
+number = int(input('Type in whichever number: '))
+
+if number<0:
+   print(number * -1)
+elif number>0:
+   print(number)
